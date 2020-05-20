@@ -9,6 +9,7 @@ import pl.pawelec97.pawApplication.model.User;
 import pl.pawelec97.pawApplication.repositories.UserRepository;
 
 @RestController
+
 public class MainController {
 
 
@@ -23,9 +24,9 @@ public class MainController {
         return "hello";
     }
 
-    @GetMapping("/user")
-    public String user(){
-        return "test auth";
-    }
+//    @GetMapping("/user")
+//    public String user(){
+//        return "test auth";
+//    }
 
 }
